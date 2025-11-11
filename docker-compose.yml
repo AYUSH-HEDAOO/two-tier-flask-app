@@ -24,7 +24,7 @@ services:
 
   flask-app:
     # image: devopswithayush/two-tier-flask-app:latest
-    image: devopswithayush/my-app:latest
+    image: devopswithayush/two-tier-flask-app:latest
     container_name: flask-app
     ports:
       - "5000:5000"
