@@ -1,0 +1,17 @@
+# Ignore MySQL runtime data
+mysql-data/
+**/mysql-data/
+*.cnf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and env files
+*.log
+.env
+
+# Git files
+.git
+.gitignore
